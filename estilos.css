@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container{
+    margin-top: 50px;
+}
+.codoacodo{
+    width: 100px;
+}
+.navbar{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    top: 0;
+}
+#navbarNavAltMarkup{
+    justify-content: end;
+}
+.tickets{
+    color: green;
+}
+.d-block{
+    filter: brightness(60%);
+}
+.card-img-overlay{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: end;
+    margin-right: 80px;
+}
+.carousel-control-prev, .carousel-control-next{
+    width: 90px;
+}
+.card-title{
+    font-size: 30px;
+}
+.card-text{
+    font-size: 20px;
+}
+.card h5{
+    padding-left: 10px;
+}
+.card .informacion, p{
+    padding: 10px;
+}
+.botontickets{
+    color: white;
+    text-decoration: none;
+}
+.botontickets:hover{
+    color: rgb(166, 253, 165);
+}
+#row1{
+    width: 80%;
+}
+.oradores{
+    display: flex;
+    justify-content: center;
+}
+.informacion .btn{
+    font-size: 12px;
+    padding: 0;
+}
+.row p{
+    color: #969595;
+    font-size: 12px;
+}
+#bsasoctubre{
+    width: 100%;
+    display: inline;
+}
+.card-body{
+    background-color: rgb(58, 57, 57);
+    color: #fff;
+    height: 400px;
+}
+.card-body p{
+    font-size: 13px;
+    font-weight: lighter;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.img-fluid{
+    width: 100%;
+    height: 400px;
+}
+u{
+    text-decoration: underline dotted;
+}
+form{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.formulario{
+    width: 50%;
+    margin-bottom: 15px;
+}
+.txt{
+    display: inline;
+    text-align: center;
+}
+#nombre, #apellido, textarea, #email{
+    width: 48%;
+    height: 35px;
+    padding-left: 10px;
+    border: 1px solid #dadada;
+    border-radius: 4px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: lighter;
+    margin-top: 15px;
+}
+.nombreyapellido{
+    display: flex;
+    justify-content: space-between;
+}
+#email{
+    width: 100%;
+}
+textarea{
+    width: 100%;
+    height: 100px;
+}
+.enviar{
+    width: 100%;
+    background-color: yellowgreen;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    color: #e6e4e4;
+    font-size: 20px;
+}
+.enviar:hover{
+    background-color: #71a30e;
+    color: #fff;
+    box-shadow: 2px 2px 9px 5px rgb(187, 185, 185);
+}
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #0d384b;
+}
+footer .row{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+footer a{
+    height: 50px;
+    width: 80px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-decoration: none;
+    margin: 6px 0px;
+}
+footer a:hover{
+    color: #71a30e;
+}
+@media (max-width:290px){
+    .card-body p, .txt p{
+        display: none;
+    }
+    .card-body{
+        height: 120px;
+    }
+}
+@media (max-width:390px){
+    .card-img-overlay h5, .card-img-overlay p{
+        display: none;
+    }
+}
+@media (max-width:530px){
+    .card-img-overlay{
+        margin-right: 50px;
+        justify-content: end;
+    }
+    .card-img-overlay h5{
+        font-size: 12px;
+    }
+    .card-img-overlay p{
+        font-size: 7px;
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+    .col-4{
+        width: 100%;
+    }
+    .btn{
+        font-size: 10px;
+    }
+}
+@media (min-width:530px) and (max-width:767.9px){
+    .card-body{
+        height: 280px;
+    }
+}
+@media (min-width:530px) and (max-width:780px){
+    .card-img-overlay{
+        margin-right: 50px;
+    }
+    .card-img-overlay h5{
+        font-size: 15px;
+    }
+    .card-img-overlay p{
+        font-size: 10px;
+    }
+    .btn{
+        font-size: 10px;
+    }
+}
+@media  (min-width: 780px) and (max-width:992px){
+    .card-img-overlay{
+        margin-right: 70px;
+    }
+    .card-img-overlay h5{
+        font-size: 20px;
+    }
+    .card-img-overlay p{
+        font-size: 15px;
+    }
+}
+@media (max-width:1014px){
+    footer a{
+        display: flex;
+        justify-content: flex-start;
+    }
+}
